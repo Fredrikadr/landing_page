@@ -1,8 +1,50 @@
 body {
   display: flex;
-
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.header, .hero {
+.header, .hero, .footer {
   background-color: #1F2937;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.quote {
+background-color: #E5E7EB;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px
+}
+
+.info {
+  max-width: 200px;
+}
+
+img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.quote {
+  height: 300px;
+  padding: 100px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  
+}
+
+.signup-box {
+  background-color: #3882F6;
+  margin: 100px;
+  text-align: left;
+  padding-left: 200px;
 }
