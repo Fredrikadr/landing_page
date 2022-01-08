@@ -28,10 +28,69 @@ background-color: #E5E7EB;
   max-width: 200px;
 }
 
-img {
-  border-radius: 50%;
+.info img {
   height: 200px;
   width: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.header {
+display: flex;
+padding-left: 300px;
+padding-right: 300px;
+padding-top: 20px;
+}
+
+a {
+  padding: 0px 10px;
+}
+.logo {
+ font-size: 24px;
+ color: #F9FAF8;
+}
+
+.links {
+ margin-left: auto;
+ font-size: 18px;
+ color: #E5E7EB;
+}
+
+.hero {
+display: flex;
+text-align: left;
+padding-right: 300px;
+padding-left: 300px;
+padding-top: 100px;
+padding-bottom: 150px;
+justify-content: space-between;
+}
+
+.hero img {
+  height: 250px;
+  width: 500px;
+  object-fit: cover;
+  
+}
+
+.heading {
+  height: 200px;
+  width: 350px;
+}
+
+.heading-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.header-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero button {
+  margin-top: 15px;
 }
 
 .quote {
@@ -47,4 +106,17 @@ img {
   margin: 100px;
   text-align: left;
   padding-left: 200px;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.hero button {
+ border: none;
 }
